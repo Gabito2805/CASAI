@@ -7,25 +7,91 @@ function AboutSection() {
             className="about-section"
         >
 
+            <div
+                className="about-background"
+                aria-hidden="true"
+            >
+
+                <div className="about-grid" />
+
+                <div className="about-top-glow" />
+
+
+                <div className="about-energy about-energy-left">
+
+                    <span className="about-energy-line about-energy-line-1" />
+                    <span className="about-energy-line about-energy-line-2" />
+                    <span className="about-energy-line about-energy-line-3" />
+
+                </div>
+
+
+                <div className="about-energy about-energy-right">
+
+                    <span className="about-energy-line about-energy-line-1" />
+                    <span className="about-energy-line about-energy-line-2" />
+                    <span className="about-energy-line about-energy-line-3" />
+
+                </div>
+
+
+                <div className="about-center-glow" />
+
+            </div>
+
+
+
             <div className="about-content">
 
-                <p className="about-label">
-                    ¿QUÉ ES CASAI?
-                </p>
+                <div className="about-core-wrapper">
+
+                    <div className="about-core-orbit">
+
+                        <div className="about-core-orbit-ring about-core-orbit-ring-1" />
+
+                        <div className="about-core-orbit-ring about-core-orbit-ring-2" />
+
+                    </div>
+
+
+                    <div className="about-core-circuit about-core-circuit-left">
+
+                        <span />
+                        <span />
+                        <span />
+
+                    </div>
+
+
+                    <div className="about-core-circuit about-core-circuit-right">
+
+                        <span />
+                        <span />
+                        <span />
+
+                    </div>
+
+                </div>
+
 
 
                 <h2 className="about-title">
 
-                    Tecnología para
-                    <br />
-                    vivir mejor.
+                    <span>
+                        El futuro de tu casa
+                    </span>
+
+                    <span>
+                        empieza con CASAI.
+                    </span>
 
                 </h2>
 
 
+
                 <p className="about-description">
 
-                    En CasAI te ayudamos a transformar tu casa
+                    En CASAI te ayudamos a transformar tu casa
                     en un hogar inteligente. Te asesoramos para
                     elegir los productos de automatización que
                     mejor se adaptan a tus espacios, los
@@ -35,14 +101,40 @@ function AboutSection() {
                 </p>
 
 
-                <p className="about-description-secondary">
 
-                    Desde iluminación y climatización hasta
-                    seguridad, entretenimiento y control del hogar,
-                    reunimos la tecnología necesaria para que
-                    puedas disfrutarla sin complicaciones.
+                <div className="about-systems">
 
-                </p>
+                    <span>
+                        Energia
+                    </span>
+
+                    <i />
+
+                    <span>
+                        Climatización
+                    </span>
+
+                    <i />
+
+                    <span>
+                        Seguridad
+                    </span>
+
+                    <i />
+
+                    <span>
+                        Automatización
+                    </span>
+
+                    <span>
+                        Comodidad
+                    </span>
+
+                    <span>
+                        Entretenimiento
+                    </span>
+
+                </div>
 
             </div>
 
@@ -51,5 +143,6 @@ function AboutSection() {
     )
 
 }
+
 
 export default AboutSection

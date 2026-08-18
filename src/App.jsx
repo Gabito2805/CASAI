@@ -17,10 +17,16 @@ import Footer from "./components/Footer"
 import ProductsSection from './components/ProductsSection'
 import AboutCasAI from "./components/AboutCasAI"
 
-
 function App() {
+
   return (
+
     <main className="app">
+
+
+      {/* =========================================
+          SISTEMA GLOBAL
+      ========================================= */}
 
       <Intro />
 
@@ -28,38 +34,61 @@ function App() {
 
       <Navbar />
 
-      <Hero />
 
-      <ScrollExperience />
 
-      <AboutCasAI />
+      {/* =========================================
+          FONDO GLOBAL DE LA WEB
+      ========================================= */}
 
-      <AutomationSection />
+      
 
-      <AppSection />
 
-      <BenefitsSection />
 
-      <InspirationSection />
+      {/* =========================================
+          CONTENIDO
+      ========================================= */}
 
-      <PackagesSection />
+      <div className="site-content">
 
-      <AISection />
 
-      <InstallationSection />
+        <Hero />
 
-      <FAQSection />
+        <ScrollExperience />
 
-      <ProductsSection />
+        <AboutCasAI />
 
-      <CTASection />
+        <AutomationSection />
 
-      <FinalBrand />
+        <AppSection />
 
-      <Footer />
+        <BenefitsSection />
+
+        <InspirationSection />
+
+        <PackagesSection />
+
+        <AISection />
+
+        <InstallationSection />
+
+        <FAQSection />
+
+        <ProductsSection />
+
+        <CTASection />
+
+        <FinalBrand />
+
+        <Footer />
+
+
+      </div>
+
 
     </main>
+
   )
+
 }
 
 export default App
